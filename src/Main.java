@@ -9,6 +9,8 @@ public class Main {
         Student s = new Student("Jefke");
         System.out.println("Student added : " + s.getName());
 
-
+        Docent d = new Docent();
+        d.setDocent( "Walter" );
+        System.out.println("Docent : " + d.toString() );
     }
 }
